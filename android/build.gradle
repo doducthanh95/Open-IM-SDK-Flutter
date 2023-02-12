@@ -8,13 +8,12 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.5.4'
+        classpath 'com.android.tools.build:gradle:7.1.2'
     }
 }
 
 rootProject.allprojects {
     repositories {
-        maven { url 'https://open-im-online.rentsoft.cn:51000/repository/maven2/' }
         google()
         mavenCentral()
     }
